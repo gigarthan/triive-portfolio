@@ -24,7 +24,7 @@ body {
 }
 
 .blur-background {
-  backdrop-filter: blur(25px);
+  backdrop-filter: blur(30px);
 }
 
 .title {
@@ -60,7 +60,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(#fff, 0.4);
+    background-color: rgba(#fff, 0.5);
     padding: 20px;
     flex-wrap: wrap;
   }
@@ -78,7 +78,7 @@ body {
   }
 
   .dev-bg {
-    background-image: url("https://images.unsplash.com/photo-1501360575895-3f3f2639fd74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+    background-image: url("https://images.unsplash.com/photo-1519645261061-3cee4d216668?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   }
 
   .built-bg {
@@ -126,7 +126,7 @@ body {
     display: flex;
     flex-direction: row;
     // flex-wrap: wrap;
-    overflow-x: scroll;
+    overflow-x: auto;
     padding: 8px;
     color: #ffffff;
     transition: all ease-in-out 0.3s;

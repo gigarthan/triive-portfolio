@@ -1,14 +1,16 @@
 import React from "react"
 import "../styles/product.scss"
 
-export default function Product({ image, title, description }) {
+export default function Product({ image, title, description, url }) {
   return (
-    <div className="products">
-      <h2>{title}</h2>
+    <a className="products" href={url} target="_blank">
       <div>
-        <img src={image} />
+        <h2>{title}</h2>
+        <div>
+          <img src={image} />
+        </div>
+        <h3>{description}</h3>
       </div>
-      <h3>{description}</h3>
-    </div>
+    </a>
   )
 }

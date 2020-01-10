@@ -9,32 +9,32 @@ const products = [
     title: "Triive Ecommerce",
     description: "Which is a marketplace for homemade items",
     image: triiveStore,
+    url: "https://triive.lk/",
   },
   {
-    title: "theCompassion.org",
+    title: "TheCompassion.org",
     description:
       "A Charity organization focuses on War affected northern part of Sri Lanka",
     image: triiveStore,
+    url: "https://thecompassion.org/",
   },
   {
     title: "TechNutpam",
     description: "Tamil Technology Blog",
     image: triiveStore,
+    url: "https://technutpam.xyz/",
   },
   {
     title: "Antommaths.com",
     description: "A personal blog for maths subject",
     image: triiveStore,
+    url: "http://antommaths.com/",
   },
   {
     title: "MOOCRecHumanity",
     description: "Mooc Recommender Engine",
     image: triiveStore,
-  },
-  {
-    title: "MOOCRecHumanity",
-    description: "Mooc Recommender Engine",
-    image: triiveStore,
+    url: "https://moocrechumanity.netlify.com/",
   },
 ]
 
