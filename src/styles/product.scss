@@ -1,0 +1,25 @@
+.products {
+  cursor: pointer;
+  min-width: 450px;
+  border: 5px solid #fff;
+  padding: 24px;
+  margin: 8px;
+  box-shadow: -5px 5px #fff;
+
+  &:hover {
+    $hoverColor: #333;
+    border-color: $hoverColor;
+    box-shadow: -10px 10px $hoverColor;
+  }
+
+  img {
+    border: solid 5px #fff;
+    transform: rotate(-1deg);
+    box-shadow: -5px 5px #ddd, 5px 5px #bbb, 5px -5px #ccc;
+  }
+
+  h3 {
+    font-family: "Comfortaa";
+    font-size: 16px;
+  }
+}

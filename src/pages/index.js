@@ -1,7 +1,42 @@
 import React from "react"
-
 import SEO from "../components/seo"
 import "../styles/home.scss"
+import triiveStore from "../images/triive.png"
+import Product from "../components/Product"
+
+const products = [
+  {
+    title: "Triive Ecommerce",
+    description: "Which is a marketplace for homemade items",
+    image: triiveStore,
+  },
+  {
+    title: "theCompassion.org",
+    description:
+      "A Charity organization focuses on War affected northern part of Sri Lanka",
+    image: triiveStore,
+  },
+  {
+    title: "TechNutpam",
+    description: "Tamil Technology Blog",
+    image: triiveStore,
+  },
+  {
+    title: "Antommaths.com",
+    description: "A personal blog for maths subject",
+    image: triiveStore,
+  },
+  {
+    title: "MOOCRecHumanity",
+    description: "Mooc Recommender Engine",
+    image: triiveStore,
+  },
+  {
+    title: "MOOCRecHumanity",
+    description: "Mooc Recommender Engine",
+    image: triiveStore,
+  },
+]
 
 const IndexPage = () => (
   <>
@@ -54,7 +89,18 @@ const IndexPage = () => (
       </section>
       <section className="bg built-bg">
         <div className="card blur-background">
-          <h1 className="title from-title">We have built</h1>
+          <div className="built-container">
+            <div>
+              <div className="dev-title">
+                <h1 className="title from-title">We have built</h1>
+              </div>
+              <div className="products-container">
+                {products.map(product => (
+                  <Product {...product} />
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section className="bg chat-bg">
