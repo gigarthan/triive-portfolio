@@ -51,22 +51,26 @@ const IndexPage = () => (
       </section>
       <section className="bg from-bg">
         <div className="card blur-background">
-          <h1 className="title from-title">
-            We are a creative Agency from the land of Pearls (Sri Lanka)
-          </h1>
+          <div className="card-content">
+            <h1 className="title from-title">
+              We are a creative Agency from the land of Pearls (Sri Lanka)
+            </h1>
+          </div>
         </div>
       </section>
       <section className="bg solve-bg">
         <div className="card blur-background">
-          <h1 className="title from-title">
-            We focus solving problems in a pragmatic way to build your business
-            to the next level
-          </h1>
+          <div className="card-content">
+            <h1 className="title from-title">
+              We focus solving problems in a pragmatic way to build your
+              business to the next level
+            </h1>
+          </div>
         </div>
       </section>
       <section className="bg dev-bg">
         <div className="card blur-background">
-          <div>
+          <div className="card-content">
             <div className="dev-title">
               <h1 className="title from-title">We Develop</h1>
             </div>
@@ -89,7 +93,7 @@ const IndexPage = () => (
       </section>
       <section className="bg built-bg">
         <div className="card blur-background">
-          <div className="built-container">
+          <div className="built-container card-content">
             <div>
               <div className="dev-title">
                 <h1 className="title from-title">We have built</h1>
@@ -105,7 +109,7 @@ const IndexPage = () => (
       </section>
       <section className="bg chat-bg">
         <div className="card blur-background">
-          <div>
+          <div className="card-content">
             <div className="dev-title">
               <h1 className="title from-title">Chat with us</h1>
             </div>
