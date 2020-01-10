@@ -59,7 +59,25 @@ const IndexPage = () => (
       </section>
       <section className="bg chat-bg">
         <div className="card blur-background">
-          <h1 className="title from-title">Chat with us</h1>
+          <div>
+            <div className="dev-title">
+              <h1 className="title from-title">Chat with us</h1>
+            </div>
+            <div className="services-container">
+              <div className="services">
+                <h2>Email</h2>
+              </div>
+              <div className="services">
+                <h2>Facebook</h2>
+              </div>
+              <div className="services">
+                <h2>LinkedIn</h2>
+              </div>
+              <div className="services">
+                <h2>Twitter</h2>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </section>
