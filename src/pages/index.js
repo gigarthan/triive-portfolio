@@ -31,7 +31,25 @@ const IndexPage = () => (
       </section>
       <section className="bg dev-bg">
         <div className="card blur-background">
-          <h1 className="title from-title">We Develop</h1>
+          <div>
+            <div className="dev-title">
+              <h1 className="title from-title">We Develop</h1>
+            </div>
+            <div className="services-container">
+              <div className="services">
+                <h2>Website Designing & Development</h2>
+              </div>
+              <div className="services">
+                <h2>Mobile Application Designing & Development</h2>
+              </div>
+              <div className="services">
+                <h2>Social Media Management</h2>
+              </div>
+              <div className="services">
+                <h2>Business Data Analysis</h2>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section className="bg built-bg">

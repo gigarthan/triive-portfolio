@@ -16,11 +16,13 @@ body {
   font-size: 120px;
   box-shadow: -10px 10px 1px;
   text-shadow: 2px 2px 2px #ccc;
+  cursor: default;
 }
 
 .title-sm {
   font-size: 3rem;
   font-weight: 300;
+  cursor: default;
 }
 
 .bg {
@@ -42,6 +44,7 @@ body {
     align-items: center;
     background-color: rgba(#fff, 0.4);
     padding: 20px;
+    flex-wrap: wrap;
   }
 
   .intro-bg {
@@ -72,5 +75,27 @@ body {
     font-size: 50px;
     text-shadow: none;
     box-shadow: 0 5px 0px #fff;
+  }
+
+  .dev-title {
+    width: 100%;
+  }
+
+  .services-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 8px;
+    color: #ffffff;
+  }
+
+  .services {
+    cursor: default;
+    width: 250px;
+    border: 5px solid #fff;
+    padding: 8px;
+    margin: 8px;
+    box-shadow: -5px 5px #fff;
   }
 }
