@@ -122,6 +122,12 @@ body {
     flex-wrap: wrap;
     margin: 8px;
     color: #ffffff;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+    }
   }
 
   .services {
@@ -131,6 +137,22 @@ body {
     padding: 8px;
     margin: 8px;
     box-shadow: -5px 5px #fff;
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  .linkedin {
+    border: 5px solid #0077b5;
+    box-shadow: -5px 5px #0077b5;
+    color: #0077b5;
+  }
+
+  .twitter {
+    border: 5px solid #1da1f2;
+    box-shadow: -5px 5px #1da1f2;
+    color: #1da1f2;
   }
 
   .built-container {

@@ -3,7 +3,12 @@ import "../styles/product.scss"
 
 export default function Product({ image, title, description, url }) {
   return (
-    <a className="products" href={url} target="_blank">
+    <a
+      className="products"
+      rel="noopener noreferrer"
+      href={url}
+      target="_blank"
+    >
       <div>
         <h2>{title}</h2>
         <div>

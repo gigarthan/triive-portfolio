@@ -1,8 +1,12 @@
 import React from "react"
 import SEO from "../components/seo"
 import "../styles/home.scss"
-import triiveStore from "../images/triive.png"
 import Product from "../components/Product"
+import triiveStore from "../images/triive.png"
+import compassion from "../images/compassion.png"
+import techNutpam from "../images/technutpam.png"
+import antomMaths from "../images/antom.png"
+import moocRec from "../images/mooc.png"
 
 const products = [
   {
@@ -15,25 +19,25 @@ const products = [
     title: "TheCompassion.org",
     description:
       "A Charity organization focuses on War affected northern part of Sri Lanka",
-    image: triiveStore,
+    image: compassion,
     url: "https://thecompassion.org/",
   },
   {
     title: "TechNutpam",
     description: "Tamil Technology Blog",
-    image: triiveStore,
+    image: techNutpam,
     url: "https://technutpam.xyz/",
   },
   {
     title: "Antommaths.com",
     description: "A personal blog for maths subject",
-    image: triiveStore,
+    image: antomMaths,
     url: "http://antommaths.com/",
   },
   {
     title: "MOOCRecHumanity",
     description: "Mooc Recommender Engine",
-    image: triiveStore,
+    image: moocRec,
     url: "https://moocrechumanity.netlify.com/",
   },
 ]
@@ -114,18 +118,25 @@ const IndexPage = () => (
               <h1 className="title from-title">Chat with us</h1>
             </div>
             <div className="services-container">
-              <div className="services">
+              <div className="services pointer">
                 <h2>Email</h2>
               </div>
-              <div className="services">
+              <div className="services pointer">
                 <h2>Facebook</h2>
               </div>
-              <div className="services">
-                <h2>LinkedIn</h2>
-              </div>
-              <div className="services">
-                <h2>Twitter</h2>
-              </div>
+              <a
+                href="https://www.linkedin.com/company/triive-agency/"
+                target="_blank"
+              >
+                <div className="services linkedin pointer">
+                  <h2>LinkedIn</h2>
+                </div>
+              </a>
+              <a href="https://twitter.com/gigarthan" target="_blank">
+                <div className="services twitter pointer">
+                  <h2>Twitter</h2>
+                </div>
+              </a>
             </div>
           </div>
         </div>
