@@ -147,12 +147,39 @@ body {
     border: 5px solid #0077b5;
     box-shadow: -5px 5px #0077b5;
     color: #0077b5;
+    transition: all ease-in 0.3s;
+
+    &:hover {
+      background-color: #0077b5;
+      color: #fff;
+      box-shadow: -8px 8px #fff;
+    }
+  }
+
+  .fb {
+    border: 5px solid #4267b2;
+    box-shadow: -5px 5px #4267b2;
+    color: #4267b2;
+    transition: all ease-in 0.3s;
+
+    &:hover {
+      background-color: #4267b2;
+      color: #fff;
+      box-shadow: -8px 8px #fff;
+    }
   }
 
   .twitter {
     border: 5px solid #1da1f2;
     box-shadow: -5px 5px #1da1f2;
     color: #1da1f2;
+    transition: all ease-in 0.3s;
+
+    &:hover {
+      background-color: #1da1f2;
+      color: #fff;
+      box-shadow: -8px 8px #fff;
+    }
   }
 
   .built-container {

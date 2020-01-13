@@ -118,12 +118,14 @@ const IndexPage = () => (
               <h1 className="title from-title">Chat with us</h1>
             </div>
             <div className="services-container">
-              <div className="services pointer">
+              {/* <div className="services pointer">
                 <h2>Email</h2>
-              </div>
-              <div className="services pointer">
-                <h2>Facebook</h2>
-              </div>
+              </div> */}
+              <a href="https://www.facebook.com/triive.agency/" target="_blank">
+                <div className="services fb pointer">
+                  <h2>Facebook</h2>
+                </div>
+              </a>
               <a
                 href="https://www.linkedin.com/company/triive-agency/"
                 target="_blank"
